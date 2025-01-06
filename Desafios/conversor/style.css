@@ -1,0 +1,36 @@
+body {
+    background-color: blueviolet;
+}
+#oi {
+    border-radius: 30px;
+    background-color: rgb(185, 105, 255);
+    height: 300px;
+}
+h1{
+    margin-left: 35px;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+input {
+    margin-left: 35px;
+    height: 21px;
+    width: 150px;
+}
+select{
+    height: 26px;
+    width: 150px;
+}
+button{
+    height: 26px;
+}
+p {
+    margin-left: 2px;
+    
+}
+#ola{
+    color: black;
+    background-color: white;
+    height: 25px;
+    width: 156px;
+    margin-left: 35px;
+}

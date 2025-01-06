@@ -1,0 +1,29 @@
+.header {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFEBCD;
+    color: #5A2D0C;
+    font-weight: bold;
+}
+#div2{
+    width: 340px;
+}
+span {
+    display: block;
+}
+.lista{
+    background-color: #E6E6FA;
+    padding: 20px;
+}
+.itens{
+    display: block;
+    font-size: 18px;
+}
+#img {
+    margin: 15px 20px 0 0;
+    width: 100px;
+    position: relative;
+    right: 0px;
+    float: right;
+}
