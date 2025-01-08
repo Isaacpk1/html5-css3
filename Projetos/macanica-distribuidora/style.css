@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: red;
+    border-bottom: yellow solid 2px;
+}
+#section1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+ h1{
+    color: white;
+}
+#section1 a{
+    margin: 0 3px;
+    text-decoration: none;
+    color: yellow;
+}
+
+#section1 a:hover{
+    color: white;
+    border-bottom: 1px solid  yellow;
+    padding-bottom: 1px;
+    font-size: 17px;
+    transition: color,0.3s;
+}
+main{
+    color: black;
+}
+#home{
+    margin-top: 48px;
+    padding: 20px;
+    background-image: url("https://th.bing.com/th/id/OIP.ZUNttmAHN5Bcf6XzPZkaywAAAA?rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home p{    
+    text-align: justify;
+}
+#conteudo{
+    display: flex;
+    align-content: center;
+
+    flex-wrap: wrap;
+    width: 200px;
+    min-height: 30vh;
+}
+#about{
+    color: white;
+    margin: 20px 20px 20px 20px;
+
+    text-align: center;
+}
+#serviços{
+    margin: 0 20px 20px 20px;
+    color: white;
+}
