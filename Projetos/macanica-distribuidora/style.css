@@ -46,7 +46,7 @@ header > div > nav > a:hover{
 }
 #section{
     height: 600px;
-    width: 100vw;
+    max-width: 99vw;
     background-image: url('https://www.designi.com.br/images/preview/10323374-m.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,4 +113,43 @@ main > section > h3{
 .filho h2{
     color: red;
     font-size: 30px;
+}
+#local{
+    display: flex;
+}
+iframe{
+    height: 400px;
+    flex: 1 1 2440px;
+}
+footer{
+    color: yellow;
+    background-color: red;
+}
+h4{
+    font-size: 2rem;
+}
+.img{
+    height: 20px;
+    width: 20px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px,200px));
+    gap: 20px 40px;
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+.white{
+    color: white;
+    font-size: 1.3rem;
+}
+.linkfooter{
+    color: white;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+#contato{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
 }
