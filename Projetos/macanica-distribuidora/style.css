@@ -1,72 +1,116 @@
 *{
     margin: 0;
     padding: 0;
-    outline: none;
-    border: none;
+    box-sizing: border-box;
     text-decoration: none;
+    font-size: 10px;
 }
 body{
-    background-color: black;
+    background-color: var(--cor2);
+    color: white;
 }
 header{
+    background-color: red;
+    padding: 20px 0;
     position: fixed;
+    z-index: 9999;
     left: 0;
     right: 0;
     top: 0;
-    background-color: red;
-    border-bottom: yellow solid 2px;
 }
-#section1{
+.container{
+    padding: 0 5%;
+    margin: 0 auto;
+}
+header > div{
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5px;
+    padding: 20px 0;
 }
- h1{
-    color: white;
+#logo{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-right: 1rem;
 }
-#section1 a{
-    margin: 0 3px;
-    text-decoration: none;
+header > div > nav > a{
+    font-size: 1.7rem;
+    margin-right: 1.5rem;
     color: yellow;
 }
-
-#section1 a:hover{
-    color: white;
-    border-bottom: 1px solid  yellow;
-    padding-bottom: 1px;
-    font-size: 17px;
-    transition: color,0.3s;
+header > div > nav > a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+    transition: color,0.5s;
 }
-main{
-    color: black;
-}
-#home{
-    margin-top: 48px;
-    padding: 20px;
-    background-image: url("https://th.bing.com/th/id/OIP.ZUNttmAHN5Bcf6XzPZkaywAAAA?rs=1&pid=ImgDetMain");
+#section{
+    height: 600px;
+    width: 100vw;
+    background-image: url('https://www.designi.com.br/images/preview/10323374-m.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
-#home p{    
-    text-align: justify;
+section > div{
+    position: relative;
 }
-#conteudo{
-    display: flex;
-    align-content: center;
-
-    flex-wrap: wrap;
-    width: 200px;
-    min-height: 30vh;
+section > div > #h2-1{
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,200px);
 }
-#about{
-    color: white;
-    margin: 20px 20px 20px 20px;
-
+#h2-2{
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,240px);
+}
+#h2-3{
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,280px);
+}
+#h2-4{
+    display: inline;
+    padding: 10px;
+    border: 1px white solid;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,350px);
+}
+main > section > h3{
+    margin-top: 3rem;
+    color: red;
+    font-size: 3rem;
     text-align: center;
 }
-#serviços{
-    margin: 0 20px 20px 20px;
-    color: white;
+.pai{
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-content: flex-start;
+}
+.filho{
+    margin: 0 20px 20px 0;
+    background-image: url('https://doutormultas.com.br/wp-content/uploads/2018/01/escapamentos-tudo-370x245.jpg');
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.filho h2{
+    color: red;
+    font-size: 30px;
 }
